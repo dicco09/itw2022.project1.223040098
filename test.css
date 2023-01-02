@@ -1,0 +1,35 @@
+@media (max-width:600px) {
+    nav .uil {
+        display: none;
+      }
+      
+      nav .uil {
+          display: block;
+          font-size: 30px;
+        }
+      
+        nav ul {
+          background: lightseagreen;
+          position: fixed;
+          top: 0;
+          right: -200px;
+          width: 200px;
+          height: 100vh;
+          padding-top: 50px;
+          z-index: 2;
+          transition: right 0.5s;
+        }
+      
+        nav ul li {
+          display: block;
+          margin: 50px;
+        }
+      
+        nav ul .uil {
+          position: absolute;
+          top: 25px;
+          left: 35px;
+          cursor: pointer;
+        }
+    
+}
